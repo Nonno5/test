@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
             <Route path="/" element={<PosterList />} />
-            <Route path="/detail/:id/:img" element={<PosterDetail />} />
+            <Route path="/detail/:id/:img/:name" element={<PosterDetail />} />
         </Routes>
       </BrowserRouter>
   );

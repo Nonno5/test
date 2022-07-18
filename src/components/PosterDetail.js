@@ -12,7 +12,7 @@ function PosterDetail() {
         <table>
             <thead>
                 <tr>
-                    <td>글번호 {params.id}</td>
+                    <td>글번호 {params.id} {params.name}</td>
                 </tr>
             </thead>
             <tbody>
